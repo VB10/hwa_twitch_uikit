@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54A5DEEB2A4F868D00462B2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5DEEA2A4F868D00462B2C /* AppDelegate.swift */; };
+		54A5DEED2A4F868D00462B2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5DEEC2A4F868D00462B2C /* SceneDelegate.swift */; };
+		54A5DEEF2A4F868D00462B2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5DEEE2A4F868D00462B2C /* ViewController.swift */; };
+		54A5DEF22A4F868D00462B2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A5DEF02A4F868D00462B2C /* Main.storyboard */; };
+		54A5DEF42A4F868E00462B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A5DEF32A4F868E00462B2C /* Assets.xcassets */; };
+		54A5DEF72A4F868E00462B2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A5DEF52A4F868E00462B2C /* LaunchScreen.storyboard */; };
+		54A5DF022A4F868F00462B2C /* hwa_twitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5DF012A4F868F00462B2C /* hwa_twitchTests.swift */; };
+		54A5DF0C2A4F868F00462B2C /* hwa_twitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5DF0B2A4F868F00462B2C /* hwa_twitchUITests.swift */; };
+		54A5DF0E2A4F868F00462B2C /* hwa_twitchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5DF0D2A4F868F00462B2C /* hwa_twitchUITestsLaunchTests.swift */; };
+		54A5DF1B2A4F88F500462B2C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5DF1A2A4F88F500462B2C /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54A5DEFE2A4F868F00462B2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54A5DEDF2A4F868D00462B2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54A5DEE62A4F868D00462B2C;
+			remoteInfo = hwa_twitch;
+		};
+		54A5DF082A4F868F00462B2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54A5DEDF2A4F868D00462B2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54A5DEE62A4F868D00462B2C;
+			remoteInfo = hwa_twitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54A5DEE72A4F868D00462B2C /* hwa_twitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hwa_twitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A5DEEA2A4F868D00462B2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54A5DEEC2A4F868D00462B2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		54A5DEEE2A4F868D00462B2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54A5DEF12A4F868D00462B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54A5DEF32A4F868E00462B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54A5DEF62A4F868E00462B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54A5DEF82A4F868E00462B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A5DEFD2A4F868F00462B2C /* hwa_twitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hwa_twitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A5DF012A4F868F00462B2C /* hwa_twitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hwa_twitchTests.swift; sourceTree = "<group>"; };
+		54A5DF072A4F868F00462B2C /* hwa_twitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hwa_twitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A5DF0B2A4F868F00462B2C /* hwa_twitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hwa_twitchUITests.swift; sourceTree = "<group>"; };
+		54A5DF0D2A4F868F00462B2C /* hwa_twitchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hwa_twitchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54A5DF1A2A4F88F500462B2C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54A5DEE42A4F868D00462B2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A5DEFA2A4F868F00462B2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A5DF042A4F868F00462B2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54A5DEDE2A4F868D00462B2C = {
+			isa = PBXGroup;
+			children = (
+				54A5DEE92A4F868D00462B2C /* hwa_twitch */,
+				54A5DF002A4F868F00462B2C /* hwa_twitchTests */,
+				54A5DF0A2A4F868F00462B2C /* hwa_twitchUITests */,
+				54A5DEE82A4F868D00462B2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54A5DEE82A4F868D00462B2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54A5DEE72A4F868D00462B2C /* hwa_twitch.app */,
+				54A5DEFD2A4F868F00462B2C /* hwa_twitchTests.xctest */,
+				54A5DF072A4F868F00462B2C /* hwa_twitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54A5DEE92A4F868D00462B2C /* hwa_twitch */ = {
+			isa = PBXGroup;
+			children = (
+				54A5DF1C2A4F88F800462B2C /* Feature */,
+				54A5DEEA2A4F868D00462B2C /* AppDelegate.swift */,
+				54A5DEEC2A4F868D00462B2C /* SceneDelegate.swift */,
+				54A5DEEE2A4F868D00462B2C /* ViewController.swift */,
+				54A5DEF02A4F868D00462B2C /* Main.storyboard */,
+				54A5DEF32A4F868E00462B2C /* Assets.xcassets */,
+				54A5DEF52A4F868E00462B2C /* LaunchScreen.storyboard */,
+				54A5DEF82A4F868E00462B2C /* Info.plist */,
+			);
+			path = hwa_twitch;
+			sourceTree = "<group>";
+		};
+		54A5DF002A4F868F00462B2C /* hwa_twitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				54A5DF012A4F868F00462B2C /* hwa_twitchTests.swift */,
+			);
+			path = hwa_twitchTests;
+			sourceTree = "<group>";
+		};
+		54A5DF0A2A4F868F00462B2C /* hwa_twitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54A5DF0B2A4F868F00462B2C /* hwa_twitchUITests.swift */,
+				54A5DF0D2A4F868F00462B2C /* hwa_twitchUITestsLaunchTests.swift */,
+			);
+			path = hwa_twitchUITests;
+			sourceTree = "<group>";
+		};
+		54A5DF1C2A4F88F800462B2C /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				54A5DF1A2A4F88F500462B2C /* HomeViewController.swift */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54A5DEE62A4F868D00462B2C /* hwa_twitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A5DF112A4F868F00462B2C /* Build configuration list for PBXNativeTarget "hwa_twitch" */;
+			buildPhases = (
+				54A5DEE32A4F868D00462B2C /* Sources */,
+				54A5DEE42A4F868D00462B2C /* Frameworks */,
+				54A5DEE52A4F868D00462B2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hwa_twitch;
+			productName = hwa_twitch;
+			productReference = 54A5DEE72A4F868D00462B2C /* hwa_twitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54A5DEFC2A4F868F00462B2C /* hwa_twitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A5DF142A4F868F00462B2C /* Build configuration list for PBXNativeTarget "hwa_twitchTests" */;
+			buildPhases = (
+				54A5DEF92A4F868F00462B2C /* Sources */,
+				54A5DEFA2A4F868F00462B2C /* Frameworks */,
+				54A5DEFB2A4F868F00462B2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A5DEFF2A4F868F00462B2C /* PBXTargetDependency */,
+			);
+			name = hwa_twitchTests;
+			productName = hwa_twitchTests;
+			productReference = 54A5DEFD2A4F868F00462B2C /* hwa_twitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54A5DF062A4F868F00462B2C /* hwa_twitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A5DF172A4F868F00462B2C /* Build configuration list for PBXNativeTarget "hwa_twitchUITests" */;
+			buildPhases = (
+				54A5DF032A4F868F00462B2C /* Sources */,
+				54A5DF042A4F868F00462B2C /* Frameworks */,
+				54A5DF052A4F868F00462B2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A5DF092A4F868F00462B2C /* PBXTargetDependency */,
+			);
+			name = hwa_twitchUITests;
+			productName = hwa_twitchUITests;
+			productReference = 54A5DF072A4F868F00462B2C /* hwa_twitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54A5DEDF2A4F868D00462B2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					54A5DEE62A4F868D00462B2C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					54A5DEFC2A4F868F00462B2C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 54A5DEE62A4F868D00462B2C;
+					};
+					54A5DF062A4F868F00462B2C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 54A5DEE62A4F868D00462B2C;
+					};
+				};
+			};
+			buildConfigurationList = 54A5DEE22A4F868D00462B2C /* Build configuration list for PBXProject "hwa_twitch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54A5DEDE2A4F868D00462B2C;
+			productRefGroup = 54A5DEE82A4F868D00462B2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54A5DEE62A4F868D00462B2C /* hwa_twitch */,
+				54A5DEFC2A4F868F00462B2C /* hwa_twitchTests */,
+				54A5DF062A4F868F00462B2C /* hwa_twitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54A5DEE52A4F868D00462B2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A5DEF72A4F868E00462B2C /* LaunchScreen.storyboard in Resources */,
+				54A5DEF42A4F868E00462B2C /* Assets.xcassets in Resources */,
+				54A5DEF22A4F868D00462B2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A5DEFB2A4F868F00462B2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A5DF052A4F868F00462B2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54A5DEE32A4F868D00462B2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A5DEEF2A4F868D00462B2C /* ViewController.swift in Sources */,
+				54A5DEEB2A4F868D00462B2C /* AppDelegate.swift in Sources */,
+				54A5DEED2A4F868D00462B2C /* SceneDelegate.swift in Sources */,
+				54A5DF1B2A4F88F500462B2C /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A5DEF92A4F868F00462B2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A5DF022A4F868F00462B2C /* hwa_twitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A5DF032A4F868F00462B2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A5DF0E2A4F868F00462B2C /* hwa_twitchUITestsLaunchTests.swift in Sources */,
+				54A5DF0C2A4F868F00462B2C /* hwa_twitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54A5DEFF2A4F868F00462B2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54A5DEE62A4F868D00462B2C /* hwa_twitch */;
+			targetProxy = 54A5DEFE2A4F868F00462B2C /* PBXContainerItemProxy */;
+		};
+		54A5DF092A4F868F00462B2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54A5DEE62A4F868D00462B2C /* hwa_twitch */;
+			targetProxy = 54A5DF082A4F868F00462B2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54A5DEF02A4F868D00462B2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A5DEF12A4F868D00462B2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54A5DEF52A4F868E00462B2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A5DEF62A4F868E00462B2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54A5DF0F2A4F868F00462B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54A5DF102A4F868F00462B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54A5DF122A4F868F00462B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hwa_twitch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vb10.hwa-twitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54A5DF132A4F868F00462B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hwa_twitch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vb10.hwa-twitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54A5DF152A4F868F00462B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vb10.hwa-twitchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hwa_twitch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hwa_twitch";
+			};
+			name = Debug;
+		};
+		54A5DF162A4F868F00462B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vb10.hwa-twitchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hwa_twitch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hwa_twitch";
+			};
+			name = Release;
+		};
+		54A5DF182A4F868F00462B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vb10.hwa-twitchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hwa_twitch;
+			};
+			name = Debug;
+		};
+		54A5DF192A4F868F00462B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vb10.hwa-twitchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hwa_twitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54A5DEE22A4F868D00462B2C /* Build configuration list for PBXProject "hwa_twitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A5DF0F2A4F868F00462B2C /* Debug */,
+				54A5DF102A4F868F00462B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A5DF112A4F868F00462B2C /* Build configuration list for PBXNativeTarget "hwa_twitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A5DF122A4F868F00462B2C /* Debug */,
+				54A5DF132A4F868F00462B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A5DF142A4F868F00462B2C /* Build configuration list for PBXNativeTarget "hwa_twitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A5DF152A4F868F00462B2C /* Debug */,
+				54A5DF162A4F868F00462B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A5DF172A4F868F00462B2C /* Build configuration list for PBXNativeTarget "hwa_twitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A5DF182A4F868F00462B2C /* Debug */,
+				54A5DF192A4F868F00462B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54A5DEDF2A4F868D00462B2C /* Project object */;
+}
